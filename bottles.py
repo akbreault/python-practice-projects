@@ -6,12 +6,9 @@ def bottles():
     for num in range(100,0,-1):
         
         if num > 1:
-            minus_one = str(num - 1)
-            num = str(num)
-            print(num + " bottles of beer on the wall, " + num + " bottles of beer, take one down, pass it around, " + minus_one + " bottles of beer on the wall.")
+            print(str(num) + " bottles of beer on the wall, " + str(num) + " bottles of beer, take one down, pass it around, " + str(num-1) + " bottles of beer on the wall.")
         else: 
-            num = str(num)
-            print(num + " bottle of beer on the wall, " + num + " bottle of beer, take one down, pass it around, 0 bottles of beer on the wall.")
+            print("1 bottle of beer on the wall, 1 bottle of beer, take it down, pass it around, 0 bottles of beer on the wall.")
 
 if __name__ == "__main__":
     bottles()
