@@ -2,7 +2,7 @@
 
 ### 99 bottles of beer on the wall
 
-def main():
+def bottles():
     for num in range(100,0,-1):
         
         if num > 1:
@@ -14,6 +14,6 @@ def main():
             print(num + " bottle of beer on the wall, " + num + " bottle of beer, take one down, pass it around, 0 bottles of beer on the wall.")
 
 if __name__ == "__main__":
-    main()
+    bottles()
         
         
